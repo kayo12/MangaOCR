@@ -1,9 +1,10 @@
 <script setup>
-import OCRimage from './components/OCRimage.vue'
+//import OCRimage from './components/OCRimage.vue'
+import OCRoute from './components/OCRroute.vue'
 </script>
 
 <template>
-   <OCRimage />
+   <OCRoute />
 </template>
 
 <style scoped>
