@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Manga OCR",
+    "description": "Uma extensão que usa OCR para extrair texto de mangás.",
+    "version": "1.0",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "action": {
+      "default_popup": "popup/index.html",
+      "default_icon": {
+        "16": "icons/icon16.png"
+      }
+    },
+    "host_permissions": [
+      "<all_urls>"
+    ]
+  }
+  
